@@ -100,9 +100,9 @@
 		padding: 0px !important;
 	}
 	.link-holder {
-		padding: 3%;
-		margin: 3%;
+		padding: 3%;		
 		text-align: center;
+		margin: 5% 0%;
 	}
 	#register .owl-prev {
 		padding: 10px;
@@ -116,7 +116,7 @@
 		width: 30px;
 	}
 	#register .owl-buttons {
-		top: 30%;
+		top: 15%;
 	}
 	.city-image {
 		min-height: 100vh;
@@ -131,9 +131,9 @@
 		right: 35%;
 	}
 	#nav-dates-button {
-		position: relative;
-		left: 50%;
-		padding: 5% 30%;
+		position: absolute;
+		height: 60px;
+		width: 60px;
 	}
 	#dates .owl-next {
 		width: 60px;
@@ -146,7 +146,7 @@
 		width: 100%;
 	}
 	#dates-slider {
-		margin-top: -30%;
+		margin-top: 0%;
 	}
 	#reports .owl-theme .owl-controls .owl-page span {
 		width: 20px;
@@ -232,8 +232,12 @@
 		display: none !important;
 	}
 	.social-icon {
-		margin: 10% 3%;
-		width: 15%;
+		margin: 0% 3%;
+		width: 10%;
+		
+	}
+	.top-header {
+		border-bottom: none;
 	}
 	.main-text-home-right {
 		margin-top: 60px;
@@ -304,6 +308,18 @@
 	}
 	.footer {
 		max-height: 20vh;
+	}
+	.link-holder{
+		margin: 25% 0;
+	}
+	#register .owl-prev {   
+    width: 10%;
+	}
+	#register .owl-next {    
+    width: 10%;
+	}
+	#register .owl-buttons {
+    top: 30%;
 	}
 }
 
